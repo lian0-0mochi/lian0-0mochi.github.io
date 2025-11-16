@@ -9,14 +9,14 @@ This is a **Hugo static site** for Lian Wang's academic website, using the **Pap
 ### Technology Stack
 - **Static Site Generator**: Hugo
 - **Theme**: PaperMod (installed as a git submodule)
-- **Configuration**: `hugo.toml`
+- **Configuration**: `hugo.yaml`
 - **Deployment**: GitHub Pages
 
 ## Directory Structure
 
 ```
 lian0-0mochi.github.io/
-├── hugo.toml                    # Hugo configuration file
+├── hugo.yaml                    # Hugo configuration file
 ├── content/                     # Markdown content for pages
 │   ├── about.md                # About page
 │   ├── archives.md             # Archive page
@@ -239,24 +239,24 @@ Retry network failures with the same exponential backoff strategy.
 
 ## Hugo Configuration
 
-### Key Configuration (hugo.toml)
+### Key Configuration (hugo.yaml)
 
-```toml
-baseURL = 'https://lian0-0mochi.github.io/'
-theme = 'PaperMod'
-title = 'Lian Wang'
+```yaml
+baseURL: https://lian0-0mochi.github.io/
+theme: PaperMod
+title: Lian Wang
 
-[params]
-defaultTheme = "auto"
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
 ```
 
 ### Menu Structure
 
-Main navigation defined in `hugo.toml`:
+Main navigation defined in `hugo.yaml`:
 - Posts
 - Tags
 - Archive
