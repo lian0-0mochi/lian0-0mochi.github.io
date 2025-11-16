@@ -62,8 +62,12 @@ params:
     icon: ""
     iconHeight: 35
 
+  # Main sections to show on home page
+  mainSections:
+    - publications
+
   profileMode:
-    enabled: true
+    enabled: false
     title: Lian Wang
     subtitle: PhD Student in Biology | Duke University
     # imageUrl: /profile.jpg
@@ -71,22 +75,22 @@ params:
     # imageHeight: 120
     # imageTitle: Lian Wang
     buttons:
+      - name: Publications
+        url: /publications
       - name: Posts
         url: /posts
       - name: Tags
         url: /tags
       - name: Archive
         url: /archives
-      - name: Publications
-        url: /publications
       - name: About
         url: /about
       - name: Search
         url: /search
 
   homeInfoParams:
-    Title: Hi there!
-    Content: Welcome to my personal website
+    Title: "Lian Wang"
+    Content: "PhD Student in Biology | Duke University"
 
   socialIcons:
     - name: github
@@ -146,6 +150,10 @@ markup:
 # Menu configuration
 menu:
   main:
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 5
     - identifier: posts
       name: Posts
       url: /posts/
@@ -158,10 +166,6 @@ menu:
       name: Archive
       url: /archives/
       weight: 30
-    - identifier: publications
-      name: Publications
-      url: /publications/
-      weight: 35
     - identifier: about
       name: About
       url: /about/
