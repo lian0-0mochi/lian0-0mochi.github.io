@@ -18,8 +18,8 @@ minifyOutput = true
 [params]
 env = "production"
 title = "Lian Wang"
-description = "Personal website of Lian Wang - Machine Learning and Robotics Researcher"
-keywords = ["machine learning", "robotics", "research", "Lian Wang", "Lianzijun Wang"]
+description = "Personal website of Lian Wang - PhD Student in Biology at Duke University"
+keywords = ["biology", "research", "Duke University", "Lian Wang", "Lianzijun Wang"]
 author = "Lian Wang"
 # images = ["/profile.jpg"]
 DateFormat = "January 2, 2006"
@@ -59,7 +59,7 @@ iconHeight = 35
 [params.profileMode]
 enabled = true
 title = "Lian Wang"
-subtitle = "Machine Learning & Robotics Researcher"
+subtitle = "PhD Student in Biology | Duke University"
 # imageUrl = "/profile.jpg"
 # imageWidth = 120
 # imageHeight = 120

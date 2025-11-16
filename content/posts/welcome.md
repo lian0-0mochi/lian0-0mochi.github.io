@@ -11,11 +11,11 @@ TocOpen: false
 
 ## Welcome!
 
-Hello and welcome to my personal website! I'm excited to share my journey in machine learning and robotics with you.
+Hello and welcome to my personal website! I'm a PhD student in Biology at Duke University, and I'm excited to share my research journey with you.
 
 ## What You'll Find Here
 
-This website serves as a platform to share my research and technical work in machine learning and robotics. You can explore my publications on [Google Scholar](https://scholar.google.com/citations?user=jBOe1ocAAAAJ&hl=en) and [ResearchGate](https://www.researchgate.net/profile/Lianzijun-Wang).
+This website serves as a platform to share my research and academic work in biological sciences. You can explore my publications on [Google Scholar](https://scholar.google.com/citations?user=jBOe1ocAAAAJ&hl=en) and [ResearchGate](https://www.researchgate.net/profile/Lianzijun-Wang).
 
 ## About This Site
 
@@ -32,20 +32,20 @@ This website is built using [Hugo](https://gohugo.io/), a fast and flexible stat
 Here's a quick example showcasing the syntax highlighting:
 
 ```python
-def machine_learning_magic():
+def analyze_data():
     """
     A simple demonstration of code highlighting
     """
-    print("Hello, Machine Learning!")
+    print("Hello, Research!")
 
-    # Example: A simple linear function
-    data = [1, 2, 3, 4, 5]
-    result = [x * 2 + 1 for x in data]
+    # Example: Processing sample data
+    samples = [1, 2, 3, 4, 5]
+    results = [x * 2 + 1 for x in samples]
 
-    return result
+    return results
 
 if __name__ == "__main__":
-    output = machine_learning_magic()
+    output = analyze_data()
     print(f"Results: {output}")
 ```
 
