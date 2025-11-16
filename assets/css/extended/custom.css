@@ -1,0 +1,39 @@
+/* Custom CSS for cover images and layout */
+
+/* Limit cover image size in list views (home page, publications list) */
+.post-entry .entry-cover,
+.first-entry .entry-cover {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.post-entry .entry-cover img,
+.first-entry .entry-cover img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Ensure cover images display in tag/category pages */
+.tag-entry .entry-cover {
+    display: flex;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.tag-entry .entry-cover img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Optional: Adjust cover image on single publication pages */
+.post-single .post-cover img {
+    max-height: 600px;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
