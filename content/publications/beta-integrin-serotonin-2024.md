@@ -8,6 +8,8 @@ categories: ["Publications"]
 summary: "Investigation of how β integrin NPxY phosphorylation modulates neurotransmitter response and sensory behaviors."
 ---
 
+![Figure 1](/images/publications/beta-integrin-2024-fig1.jpg)
+
 ## Publication Details
 
 **Authors:** J. H. Bumm, D. D. Lee, Z. Qiu, A. H. Choi, M. Kolluri, M. J. Olsen, L. Wang, M. Lee

@@ -8,6 +8,8 @@ categories: ["Publications"]
 summary: "Investigation of the CAP domain's role in LON-1 function, sterol binding, and regulation of body size and BMP signaling."
 ---
 
+![Figure 1](/images/publications/lon1-cap-2025-fig1.jpg)
+
 ## Publication Details
 
 **Authors:** Maria Victoria Serrano, Stéphanie Cottier, Lianzijun Wang, Sergio Moreira-Antepara, Anthony Nzessi, Zhiyu Liu, Byron H. Williams, Myeongwoo Lee, Roger Schneiter, Jun Liu

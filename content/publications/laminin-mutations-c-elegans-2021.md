@@ -8,6 +8,8 @@ categories: ["Publications"]
 summary: "Characterization of the RGD motif in lam-3/laminin α and its role in motility regulation in C. elegans."
 ---
 
+![Figure 1](/images/publications/laminin-2021-fig1.jpg)
+
 ## Publication Details
 
 **Authors:** Lianzijun Wang, Zhongqiang Qiu, Myeongwoo Lee

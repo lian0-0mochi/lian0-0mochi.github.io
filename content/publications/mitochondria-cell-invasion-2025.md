@@ -8,6 +8,8 @@ categories: ["Publications"]
 summary: "Discovery of specialized high-capacity mitochondria that localize to the invasion site and produce elevated ATP to power cell invasion."
 ---
 
+![Figure 1](/images/publications/mitochondria-2025-fig1.jpg)
+
 ## Publication Details
 
 **Authors:** Isabel W. Kenny-Ganzert, Lena P. Basta, Lianzijun Wang, Qiuyi Chi, Caitlin Su, Katherine S. Morton, Joel N. Meyer, David R. Sherwood

@@ -8,6 +8,8 @@ categories: ["Publications"]
 summary: "Investigation of the RGD motif in UNC-52/perlecan as an essential integrin-binding ligand."
 ---
 
+![Figure 1](/images/publications/perlecan-2022-fig1.jpg)
+
 ## Publication Details
 
 **Authors:** Zhongqiang Qiu, Aileen Park, Lianzijun Wang, Rachel Wilsey, Myeongwoo Lee

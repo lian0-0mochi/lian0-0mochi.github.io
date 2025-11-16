@@ -8,6 +8,8 @@ categories: ["Publications"]
 summary: "Analysis of the integrin binding motif in TLN-1/talin and its limited impact on motility and ovulation."
 ---
 
+![Figure 1](/images/publications/talin-2023-fig1.jpg)
+
 ## Publication Details
 
 **Authors:** Fereshteh Sadeghian, Ibrahim Ibrahim, Lokesh Ravichandran, Grace Henderson, Anisha Acharya, Lianzijun Wang, Myeongwoo Lee, Erin J. Cram

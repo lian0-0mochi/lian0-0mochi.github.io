@@ -8,6 +8,8 @@ categories: ["Publications"]
 summary: "Study of how actin protrusions mechanically deform the nucleus to facilitate basement membrane penetration."
 ---
 
+![Figure 1](/images/publications/actin-nuclear-2025-fig1.jpg)
+
 ## Publication Details
 
 **Authors:** Johan d'Humières, Lianzijun Wang, David R. Sherwood, Julie Plastino
