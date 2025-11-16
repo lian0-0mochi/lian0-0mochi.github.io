@@ -5,11 +5,7 @@ url: "/publications/"
 summary: "Research publications by Lian Wang"
 ---
 
-# Publications
-
 Browse my research publications in cell biology, focusing on extracellular matrix proteins, cell adhesion, and *C. elegans* genetics.
-
-## Recent Publications
 
 All publications are listed below in reverse chronological order. Click on any title to view more details.
 
