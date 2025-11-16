@@ -14,10 +14,13 @@ Hi, I'm **Lian Wang** (Lianzijun Wang), a PhD student in Biology at **Duke Unive
 
 ## Publications & Research
 
-I am currently pursuing my doctoral degree in the Department of Biology at Duke University. You can find my research work and publications on:
+I am currently pursuing my doctoral degree in the Department of Biology at Duke University. My research focuses on cell biology, extracellular matrix proteins, and cell adhesion mechanisms in *C. elegans*.
+
+You can browse my [publications](/publications/) on this site, or find my complete research profile on:
 
 - [Google Scholar](https://scholar.google.com/citations?user=jBOe1ocAAAAJ&hl=en)
 - [ResearchGate](https://www.researchgate.net/profile/Lianzijun-Wang)
+- [ORCID](https://orcid.org/0000-0001-6467-4387)
 
 ## Contact
 
