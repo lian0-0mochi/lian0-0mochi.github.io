@@ -1,0 +1,185 @@
+baseURL = 'https://lian0-0mochi.github.io/'
+languageCode = 'en-us'
+title = 'Lian Wang'
+theme = 'PaperMod'
+
+[pagination]
+pagerSize = 5
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Lian Wang"
+description = "Personal website of Lian Wang - Machine Learning and Robotics Researcher"
+keywords = ["machine learning", "robotics", "research", "Lian Wang", "Lianzijun Wang"]
+author = "Lian Wang"
+# images = ["/profile.jpg"]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto" # dark, light, auto
+disableThemeToggle = false
+
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+[params.assets]
+# disableHLJS = true # to disable highlight.js
+# disableFingerprinting = true
+# favicon = "/favicon.ico"
+# favicon16x16 = "/favicon-16x16.png"
+# favicon32x32 = "/favicon-32x32.png"
+# apple_touch_icon = "/apple-touch-icon.png"
+# safari_pinned_tab = "/safari-pinned-tab.svg"
+
+[params.label]
+text = "Lian Wang"
+icon = ""
+iconHeight = 35
+
+[params.profileMode]
+enabled = true
+title = "Lian Wang"
+subtitle = "Machine Learning & Robotics Researcher"
+# imageUrl = "/profile.jpg"
+# imageWidth = 120
+# imageHeight = 120
+# imageTitle = "Lian Wang"
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "/tags"
+
+[[params.profileMode.buttons]]
+name = "Archive"
+url = "/archives"
+
+[[params.profileMode.buttons]]
+name = "About"
+url = "/about"
+
+[[params.profileMode.buttons]]
+name = "Search"
+url = "/search"
+
+[params.homeInfoParams]
+Title = "Hi there!"
+Content = "Welcome to my personal website"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/lian0-0mochi"
+
+[[params.socialIcons]]
+name = "googlescholar"
+url = "https://scholar.google.com/citations?user=jBOe1ocAAAAJ&hl=en"
+
+[[params.socialIcons]]
+name = "researchgate"
+url = "https://www.researchgate.net/profile/Lianzijun-Wang"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:your.email@example.com"
+
+[params.analytics.google]
+# SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+# SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+# SiteVerificationTag = "XYZabc"
+
+[params.cover]
+hidden = true # hide everywhere but not in structured data
+hiddenInList = true # hide on list pages and home
+hiddenInSingle = true # hide on single page
+
+[params.editPost]
+# URL = "https://github.com/lian0-0mochi/lian0-0mochi.github.io/tree/master/content"
+# Text = "Suggest Changes" # edit text
+# appendFilePath = true # to append file path to Edit link
+
+# For search
+# https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
+[outputs]
+home = ["HTML", "RSS", "JSON"] # necessary for search
+
+# Syntax highlighting
+[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+hl_inline = false
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = false
+noHl = false
+style = 'monokai'
+tabWidth = 4
+
+# Menu configuration
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archive"
+url = "/archives/"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 40
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 50
+
+# Taxonomies
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
