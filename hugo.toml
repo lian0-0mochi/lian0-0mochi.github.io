@@ -78,6 +78,10 @@ name = "Archive"
 url = "/archives"
 
 [[params.profileMode.buttons]]
+name = "Publications"
+url = "/publications"
+
+[[params.profileMode.buttons]]
 name = "About"
 url = "/about"
 
@@ -169,6 +173,12 @@ identifier = "archives"
 name = "Archive"
 url = "/archives/"
 weight = 30
+
+[[menu.main]]
+identifier = "publications"
+name = "Publications"
+url = "/publications/"
+weight = 35
 
 [[menu.main]]
 identifier = "about"
