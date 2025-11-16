@@ -2,9 +2,10 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the main branch
+  # Runs on pushes targeting the deployment branch
   push:
     branches:
+      - claude/setup-hugo-website-01W8W5VoyG4rtodhB7ekD68k
       - main
 
   # Allows you to run this workflow manually from the Actions tab
