@@ -6,9 +6,13 @@ type: "publication"
 tags: ["talin", "integrin", "ovulation", "motility", "C. elegans"]
 categories: ["Publications"]
 summary: "Analysis of the integrin binding motif in TLN-1/talin and its limited impact on motility and ovulation."
+cover:
+    image: "/publications/2023.talin-integrin/media/figure1.png"
+    alt: "Integrin binding motif in TLN-1/talin - Figure showing motility and ovulation analysis"
+    caption: "Figure 1: TLN-1 W387A mutation has mild effects on motility and ovulation"
+    relative: false
+    hidden: false
 ---
-
-![Figure 1](/publications/2023.talin-integrin/media/figure1.jpg)
 
 ## Publication Details
 
@@ -34,6 +38,10 @@ Sadeghian, F., Ibrahim, I., Ravichandran, L., Henderson, G., Acharya, A., Wang, 
 
 ## Links
 
-- [📄 Download PDF](/publications/2023.talin-integrin/pdf/paper.pdf) (Local copy)
+- [📄 Download PDF](/publications/2023.talin-integrin/pdf/micropub-biology-000726.pdf) (Local copy)
 - [View Publication](https://doi.org/10.17912/micropub.biology.000726)
 - [Full Text](https://www.micropublication.org/journals/biology/micropub-biology-000726)
+
+## Full Text
+
+<iframe src="/publications/2023.talin-integrin/pdf/micropub-biology-000726.pdf" width="100%" height="800px" style="border: none;"></iframe>

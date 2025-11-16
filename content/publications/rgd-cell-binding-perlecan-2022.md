@@ -6,9 +6,13 @@ type: "publication"
 tags: ["perlecan", "RGD motif", "integrin", "basement membrane", "C. elegans"]
 categories: ["Publications"]
 summary: "Investigation of the RGD motif in UNC-52/perlecan as an essential integrin-binding ligand."
+cover:
+    image: "/publications/2022.perlecan-rgd/media/figure1.jpg"
+    alt: "RGD motif in UNC-52/PERLECAN - Figure showing structural analysis and phenotypic effects"
+    caption: "Figure 1: The RGD motif is essential for perlecan function"
+    relative: false
+    hidden: false
 ---
-
-![Figure 1](/publications/2022.perlecan-rgd/media/figure1.jpg)
 
 ## Publication Details
 
@@ -36,6 +40,10 @@ Qiu, Z., Park, A., Wang, L., Wilsey, R., & Lee, M. (2022). The RGD (Arg-Gly-Asp)
 
 ## Links
 
-- [📄 Download PDF](/publications/2022.perlecan-rgd/pdf/paper.pdf) (Local copy)
+- [📄 Download PDF](/publications/2022.perlecan-rgd/pdf/1-s2.0-S0006291X21016089-main.pdf) (Local copy)
 - [View Publication](https://doi.org/10.1016/j.bbrc.2021.11.083)
 - [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0006291X21016089)
+
+## Full Text
+
+<iframe src="/publications/2022.perlecan-rgd/pdf/1-s2.0-S0006291X21016089-main.pdf" width="100%" height="800px" style="border: none;"></iframe>

@@ -6,9 +6,13 @@ type: "publication"
 tags: ["integrin", "NPxY motif", "serotonin", "egg laying", "mechanosensation", "C. elegans"]
 categories: ["Publications"]
 summary: "Investigation of how β integrin NPxY phosphorylation modulates neurotransmitter response and sensory behaviors."
+cover:
+    image: "/publications/2024.beta-integrin-serotonin/media/figure1.jpg"
+    alt: "β integrin NPxY motifs regulate serotonin sensitivity - Figure showing behavioral and mechanosensory analysis"
+    caption: "Figure 1: NPxY phosphorylation modulates neurotransmitter response"
+    relative: false
+    hidden: false
 ---
-
-![Figure 1](/publications/2024.beta-integrin-serotonin/media/figure1.jpg)
 
 ## Publication Details
 
@@ -34,5 +38,9 @@ Bumm, J. H., Lee, D. D., Qiu, Z., Choi, A. H., Kolluri, M., Olsen, M. J., Wang, 
 
 ## Links
 
-- [📄 Download PDF](/publications/2024.beta-integrin-serotonin/pdf/paper.pdf) (Local copy)
+- [📄 Download PDF](/publications/2024.beta-integrin-serotonin/pdf/Developmental%20Dynamics%20-%202025%20-%20Bumm%20-%20The%20%20%20integrin%20modulates%20serotonin%20sensitivity%20via%20NPxY%20motifs%20to%20regulate%20egg.pdf) (Local copy)
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/41117756/)
+
+## Full Text
+
+<iframe src="/publications/2024.beta-integrin-serotonin/pdf/Developmental%20Dynamics%20-%202025%20-%20Bumm%20-%20The%20%20%20integrin%20modulates%20serotonin%20sensitivity%20via%20NPxY%20motifs%20to%20regulate%20egg.pdf" width="100%" height="800px" style="border: none;"></iframe>

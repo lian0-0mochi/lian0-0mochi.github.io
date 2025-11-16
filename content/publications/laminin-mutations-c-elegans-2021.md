@@ -14,8 +14,6 @@ cover:
     hidden: false
 ---
 
-![Figure 1](/publications/2021.laminin-mutations/media/figure1.jpg)
-
 ## Publication Details
 
 **Authors:** Lianzijun Wang, Zhongqiang Qiu, Myeongwoo Lee
@@ -49,3 +47,7 @@ Wang, L., Qiu, Z., & Lee, M. (2021). Mutations in the cell-binding motif of lam-
 - [Full Text PDF](https://europepmc.org/articles/PMC8553547)
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34723150/)
 - [PMC Article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8553547/)
+
+## Full Text
+
+<iframe src="/publications/2021.laminin-mutations/pdf/paper.pdf" width="100%" height="800px" style="border: none;"></iframe>

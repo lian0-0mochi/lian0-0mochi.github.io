@@ -6,9 +6,13 @@ type: "publication"
 tags: ["CAP domain", "BMP signaling", "sterol binding", "body size", "C. elegans"]
 categories: ["Publications"]
 summary: "Investigation of the CAP domain's role in LON-1 function, sterol binding, and regulation of body size and BMP signaling."
+cover:
+    image: "/publications/2025.lon1-cap-bmp/media/figure1.png"
+    alt: "LON-1 CAP domain function - Figure showing sterol binding and BMP signaling regulation"
+    caption: "Figure 1: CAP domain residues are critical for LON-1 function and sterol binding"
+    relative: false
+    hidden: false
 ---
-
-![Figure 1](/publications/2025.lon1-cap-bmp/media/figure1.jpg)
 
 ## Publication Details
 
@@ -36,6 +40,10 @@ Serrano, M. V., Cottier, S., Wang, L., Moreira-Antepara, S., Nzessi, A., Liu, Z.
 
 ## Links
 
-- [📄 Download PDF](/publications/2025.lon1-cap-bmp/pdf/paper.pdf) (Local copy)
+- [📄 Download PDF](/publications/2025.lon1-cap-bmp/pdf/iyae202.pdf) (Local copy)
 - [View Publication](https://doi.org/10.1093/genetics/iyae202)
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39657262/)
+
+## Full Text
+
+<iframe src="/publications/2025.lon1-cap-bmp/pdf/iyae202.pdf" width="100%" height="800px" style="border: none;"></iframe>

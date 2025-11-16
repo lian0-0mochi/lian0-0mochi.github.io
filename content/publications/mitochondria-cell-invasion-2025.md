@@ -6,9 +6,13 @@ type: "publication"
 tags: ["mitochondria", "ATP production", "cell invasion", "anchor cell", "basement membrane", "C. elegans"]
 categories: ["Publications"]
 summary: "Discovery of specialized high-capacity mitochondria that localize to the invasion site and produce elevated ATP to power cell invasion."
+cover:
+    image: "/publications/2025.mitochondria-invasion/media/figure1.png"
+    alt: "Specialized mitochondria fuel cell invasion - Figure showing high-capacity mitochondria at the invasion front"
+    caption: "Figure 1: High-capacity mitochondria localize to the invasion site and produce elevated ATP"
+    relative: false
+    hidden: false
 ---
-
-![Figure 1](/publications/2025.mitochondria-invasion/media/figure1.jpg)
 
 ## Publication Details
 
@@ -34,6 +38,10 @@ Kenny-Ganzert, I. W., Basta, L. P., Wang, L., Chi, Q., Su, C., Morton, K. S., Me
 
 ## Links
 
-- [📄 Download PDF](/publications/2025.mitochondria-invasion/pdf/paper.pdf) (Local copy)
+- [📄 Download PDF](/publications/2025.mitochondria-invasion/pdf/2025.05.02.651978v1.full.pdf) (Local copy)
 - [View Preprint](https://doi.org/10.1101/2025.05.02.651978)
 - [bioRxiv PDF](https://www.biorxiv.org/content/10.1101/2025.05.02.651978v1.full.pdf)
+
+## Full Text
+
+<iframe src="/publications/2025.mitochondria-invasion/pdf/2025.05.02.651978v1.full.pdf" width="100%" height="800px" style="border: none;"></iframe>
