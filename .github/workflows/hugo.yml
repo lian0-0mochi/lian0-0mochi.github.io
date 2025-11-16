@@ -2,10 +2,11 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the master branch
+  # Runs on pushes targeting the deployment branch
   push:
     branches:
-      - master
+      - claude/setup-hugo-website-01W8W5VoyG4rtodhB7ekD68k
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,7 +33,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.139.4
+      HUGO_VERSION: 0.146.0
     steps:
       - name: Install Hugo CLI
         run: |
