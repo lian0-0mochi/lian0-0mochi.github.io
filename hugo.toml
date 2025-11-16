@@ -123,9 +123,9 @@ url = "mailto:your.email@example.com"
 # SiteVerificationTag = "XYZabc"
 
 [params.cover]
-hidden = true # hide everywhere but not in structured data
-hiddenInList = true # hide on list pages and home
-hiddenInSingle = true # hide on single page
+hidden = false # show cover images in structured data and pages
+hiddenInList = false # show on list pages and home
+hiddenInSingle = false # show on single page
 
 [params.editPost]
 # URL = "https://github.com/lian0-0mochi/lian0-0mochi.github.io/tree/master/content"
