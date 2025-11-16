@@ -8,7 +8,7 @@ categories: ["Publications"]
 summary: "Characterization of the RGD motif in lam-3/laminin α and its role in motility regulation in C. elegans."
 ---
 
-![Figure 1](/images/publications/laminin-2021-fig1.jpg)
+![Figure 1](/publications/2021.laminin-mutations/media/figure1.jpg)
 
 ## Publication Details
 
@@ -38,6 +38,7 @@ Wang, L., Qiu, Z., & Lee, M. (2021). Mutations in the cell-binding motif of lam-
 
 ## Links
 
+- [📄 Download PDF](/publications/2021.laminin-mutations/pdf/paper.pdf) (Local copy)
 - [View Publication](https://doi.org/10.17912/micropub.biology.000485)
 - [Full Text PDF](https://europepmc.org/articles/PMC8553547)
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34723150/)

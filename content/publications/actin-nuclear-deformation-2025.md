@@ -8,7 +8,7 @@ categories: ["Publications"]
 summary: "Study of how actin protrusions mechanically deform the nucleus to facilitate basement membrane penetration."
 ---
 
-![Figure 1](/images/publications/actin-nuclear-2025-fig1.jpg)
+![Figure 1](/publications/2025.actin-nuclear-invasion/media/figure1.jpg)
 
 ## Publication Details
 
@@ -36,6 +36,7 @@ d'Humières, J., Wang, L., Sherwood, D. R., & Plastino, J. (2025). The actin pro
 
 ## Links
 
+- [📄 Download PDF](/publications/2025.actin-nuclear-invasion/pdf/paper.pdf) (Local copy)
 - [View Preprint](https://doi.org/10.1101/2025.03.13.643012)
-- [Full Text PDF](https://www.biorxiv.org/content/10.1101/2025.03.13.643012v1.full.pdf)
+- [bioRxiv PDF](https://www.biorxiv.org/content/10.1101/2025.03.13.643012v1.full.pdf)
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40161654/)

@@ -8,7 +8,7 @@ categories: ["Publications"]
 summary: "Investigation of the CAP domain's role in LON-1 function, sterol binding, and regulation of body size and BMP signaling."
 ---
 
-![Figure 1](/images/publications/lon1-cap-2025-fig1.jpg)
+![Figure 1](/publications/2025.lon1-cap-bmp/media/figure1.jpg)
 
 ## Publication Details
 
@@ -36,5 +36,6 @@ Serrano, M. V., Cottier, S., Wang, L., Moreira-Antepara, S., Nzessi, A., Liu, Z.
 
 ## Links
 
+- [📄 Download PDF](/publications/2025.lon1-cap-bmp/pdf/paper.pdf) (Local copy)
 - [View Publication](https://doi.org/10.1093/genetics/iyae202)
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39657262/)

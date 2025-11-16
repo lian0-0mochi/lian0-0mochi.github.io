@@ -8,7 +8,7 @@ categories: ["Publications"]
 summary: "Discovery of specialized high-capacity mitochondria that localize to the invasion site and produce elevated ATP to power cell invasion."
 ---
 
-![Figure 1](/images/publications/mitochondria-2025-fig1.jpg)
+![Figure 1](/publications/2025.mitochondria-invasion/media/figure1.jpg)
 
 ## Publication Details
 
@@ -34,5 +34,6 @@ Kenny-Ganzert, I. W., Basta, L. P., Wang, L., Chi, Q., Su, C., Morton, K. S., Me
 
 ## Links
 
+- [📄 Download PDF](/publications/2025.mitochondria-invasion/pdf/paper.pdf) (Local copy)
 - [View Preprint](https://doi.org/10.1101/2025.05.02.651978)
-- [Full Text PDF](https://www.biorxiv.org/content/10.1101/2025.05.02.651978v1.full.pdf)
+- [bioRxiv PDF](https://www.biorxiv.org/content/10.1101/2025.05.02.651978v1.full.pdf)
