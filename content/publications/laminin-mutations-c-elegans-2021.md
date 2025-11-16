@@ -6,6 +6,12 @@ type: "publication"
 tags: ["laminin α", "RGD motif", "extracellular matrix", "C. elegans", "motility"]
 categories: ["Publications"]
 summary: "Characterization of the RGD motif in lam-3/laminin α and its role in motility regulation in C. elegans."
+cover:
+    image: "/publications/2021.laminin-mutations/media/figure1.jpg"
+    alt: "Laminin α mutations affect C. elegans motility - Figure showing protein structure comparison, worm phenotypes, and behavioral analysis"
+    caption: "Figure 1: Characterization of lam-3 RGD motif mutations"
+    relative: false
+    hidden: false
 ---
 
 ![Figure 1](/publications/2021.laminin-mutations/media/figure1.jpg)
