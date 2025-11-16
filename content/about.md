@@ -10,19 +10,11 @@ disableShare: true
 
 # About Me
 
-Hi, I'm **Lian Wang** (Lianzijun Wang), a researcher with interests in **machine learning** and **robotics**. I'm passionate about developing intelligent systems that can understand and interact with the world.
-
-## Research Interests
-
-My research focuses on the intersection of machine learning and robotics, exploring how we can create more intelligent and capable autonomous systems. I'm particularly interested in:
-
-- Machine Learning algorithms and applications
-- Robotics and autonomous systems
-- Intelligent decision-making systems
+Hi, I'm **Lian Wang** (Lianzijun Wang), a PhD student in Biology at **Duke University**. I'm passionate about biological research and advancing our understanding of life sciences.
 
 ## Publications & Research
 
-You can find my publications and research work on:
+I am currently pursuing my doctoral degree in the Department of Biology at Duke University. You can find my research work and publications on:
 
 - [Google Scholar](https://scholar.google.com/citations?user=jBOe1ocAAAAJ&hl=en)
 - [ResearchGate](https://www.researchgate.net/profile/Lianzijun-Wang)
