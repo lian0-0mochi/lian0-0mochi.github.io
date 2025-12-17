@@ -28,7 +28,7 @@ cover:
 
 ## Abstract
 
-The mechanical interaction between the actin cytoskeleton and the nucleus during invasion through basement membrane remains poorly characterized. Using *C. elegans* anchor cells, this study demonstrates that actin protrusions mechanically deform the nucleus to facilitate basement-membrane penetration. Imaging and mechanical analyses reveal that actin-based force generation at the invasive front produces transient nuclear deformations essential for invasion.
+Cell invasion through basement membranes is a critical process in development and disease, yet the mechanical interaction between the actin cytoskeleton and the nucleus during this process remains poorly characterized. Using the *C. elegans* anchor cell as an *in vivo* model of breaching invasion, this study demonstrates that actin-based protrusions mechanically deform the nucleus to facilitate basement membrane penetration. Live imaging combined with mechanical analyses reveal that actin-based force generation at the invasive cell front produces transient nuclear deformations that are essential for successful invasion. These findings establish that nuclear mechanics and deformability play active roles in enabling cells to traverse the basement membrane barrier, providing insight into the physical mechanisms underlying invasive cell behavior during development and metastasis.
 
 ## Keywords
 

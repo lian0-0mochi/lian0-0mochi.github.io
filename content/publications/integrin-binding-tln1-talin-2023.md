@@ -26,7 +26,7 @@ cover:
 
 ## Abstract
 
-TLN-1/talin is a conserved focal adhesion protein linking integrin to actin. In *C. elegans*, TLN-1 is expressed in muscles and gonadal sheath cells. A CRISPR-generated TLN-1(W387A) allele, predicted to alter integrin binding, caused mild motility and ovulation defects but no major actin structural changes. These results indicate that residue W387 in TLN-1 has limited impact on integrin binding and muscle organization *in vivo*.
+TLN-1/talin is a conserved focal adhesion protein that serves as a critical mechanical link between integrin receptors and the actin cytoskeleton. In *C. elegans*, TLN-1 is expressed in both body wall muscles and gonadal sheath cells, where it mediates cellular adhesion and force transmission. Using CRISPR/Cas9 genome editing, a TLN-1(W387A) allele was generated to test the functional significance of a conserved tryptophan residue predicted to mediate integrin binding. Phenotypic analysis revealed that the W387A mutation caused mild defects in both locomotion and ovulation, but did not produce major alterations in actin filament organization. These results indicate that while the W387 residue contributes to TLN-1 function, it has a limited role in integrin binding and muscle organization *in vivo*, suggesting functional redundancy or compensatory mechanisms in talin-mediated adhesion.
 
 ## Keywords
 

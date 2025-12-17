@@ -24,13 +24,13 @@ cover:
 
 **DOI:** [10.17912/micropub.biology.000485](https://doi.org/10.17912/micropub.biology.000485)
 
-**PMID:** 34723150
+**PMID:** [34723150](https://pubmed.ncbi.nlm.nih.gov/34723150/)
 
-**PMC:** PMC8553547
+**PMC:** [PMC8553547](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8553547/)
 
 ## Abstract
 
-The amino acid sequence Arg-Gly-Asp (RGD) is a cell-binding motif for extracellular matrix proteins. Initially found in fibronectin, the RGD motif is also found in LAM-3/laminin α chain in *C. elegans*. Laminin, a heterotrimeric glycoprotein, is a major component of the basement membrane. Mutations in laminin subunits disrupt the extracellular matrix and inhibit cell adhesion. This study characterizes the RGD motif in lam-3/laminin α. Two mutations, lam-3 RGE and lam-3 ΔRGD, were generated. The mutants revealed that the RGD motif participates in motility regulation, indicating that cell-laminin interaction contributes to body contraction control.
+The amino acid sequence Arg-Gly-Asp (RGD) is a conserved cell-binding motif present in many extracellular matrix (ECM) proteins. Originally identified in fibronectin as an integrin recognition sequence, RGD motifs are also present in the LAM-3/laminin α chain of *C. elegans*. Laminin, a large heterotrimeric glycoprotein composed of α, β, and γ subunits, is a major structural component of basement membranes that mediates cell-ECM adhesion. To investigate the functional role of the RGD motif in LAM-3, two CRISPR-generated mutations were created: an RGE substitution that disrupts the binding motif, and a complete deletion of the RGD sequence (ΔRGD). Behavioral analysis of these mutants revealed hypercontraction phenotypes and altered sensitivity to the acetylcholine receptor agonist levamisole, indicating defects in neuromuscular function. These results demonstrate that the RGD motif in LAM-3/laminin α participates in the regulation of body wall muscle contraction, suggesting that cell-laminin interactions contribute to proper neuromuscular coordination and locomotion control in *C. elegans*.
 
 ## Keywords
 

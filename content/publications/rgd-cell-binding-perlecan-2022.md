@@ -28,7 +28,7 @@ cover:
 
 ## Abstract
 
-UNC-52/perlecan, a basement membrane proteoglycan, is crucial for muscle cell attachment in *C. elegans*. The protein contains two RGD motifs in domains III and IV, known for integrin binding. Two mutations were created—RGE substitution and RGD deletion. The RGE mutation caused abnormal actin filaments and mislocalized β-integrin PAT-3 and talin TLN-1. Deletion of the motif produced a Pat (paralyzed at two-fold embryo) phenotype similar to pat-3 nulls. These findings indicate the RGD motif is an essential, conserved integrin-binding ligand required for development and survival.
+UNC-52/perlecan is a large heparan sulfate proteoglycan that serves as a major structural component of basement membranes and is crucial for muscle cell attachment in *C. elegans*. The UNC-52 protein contains two conserved RGD (Arg-Gly-Asp) motifs located in domains III and IV, which are predicted to mediate integrin binding. To test the functional significance of these motifs, two CRISPR-generated mutations were created: an RGE substitution that disrupts the binding motif, and a complete deletion of the RGD sequence. Phenotypic analysis revealed that the RGE mutation caused abnormal actin filament organization and mislocalization of β-integrin PAT-3 and its binding partner talin TLN-1. Complete deletion of the RGD motif produced a severe Pat (paralyzed at two-fold embryo) phenotype similar to that observed in *pat-3* integrin null mutants, resulting in embryonic lethality. These findings demonstrate that the RGD motif in UNC-52/perlecan is an essential integrin-binding ligand required for proper cell-ECM adhesion, cytoskeletal organization, and embryonic development.
 
 ## Keywords
 

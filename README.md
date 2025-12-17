@@ -1,12 +1,12 @@
-# Lian Wang's Academic Website
+# Academic Website of Lian Wang
 
-Personal website for Lian Wang - PhD Student in Biology at Duke University.
+Personal academic website for Lian Wang, PhD Student in Biology at Duke University.
 
 🌐 **Live Site**: https://lian0-0mochi.github.io/
 
 ## About
 
-This is a Hugo-based static website showcasing research publications, blog posts, and professional information in the field of cell biology, with a focus on extracellular matrix proteins, cell adhesion, and *C. elegans* genetics.
+This Hugo-based static website showcases research publications and professional information in the field of cell biology, with a focus on molecular mechanisms of cell-extracellular matrix interactions, integrin-mediated adhesion, basement membrane dynamics, and cellular invasion processes using *Caenorhabditis elegans* as a model organism.
 
 ## Technology
 

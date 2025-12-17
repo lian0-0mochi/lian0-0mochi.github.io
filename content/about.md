@@ -10,11 +10,11 @@ disableShare: true
 
 # About Me
 
-Hi, I'm **Lian Wang** (Lianzijun Wang), a PhD student in Biology at **Duke University**. I'm passionate about biological research and advancing our understanding of life sciences.
+I am **Lian Wang** (Lianzijun Wang), a PhD student in Biology at **Duke University**.
 
-## Publications & Research
+## Research
 
-I am currently pursuing my doctoral degree in the Department of Biology at Duke University. My research focuses on cell biology, extracellular matrix proteins, and cell adhesion mechanisms in *C. elegans*.
+I am pursuing my doctoral degree in the Department of Biology at Duke University. My research focuses on the molecular mechanisms of cell biology, with particular emphasis on extracellular matrix proteins and cell adhesion mechanisms in *C. elegans*. My work investigates integrin-mediated interactions, basement membrane dynamics, and cellular invasion processes using genetic and cell biological approaches.
 
 You can browse my [publications](/publications/) on this site, or find my complete research profile on:
 
@@ -27,7 +27,6 @@ You can browse my [publications](/publications/) on this site, or find my comple
 Feel free to reach out or follow my work:
 
 - GitHub: [lian0-0mochi](https://github.com/lian0-0mochi)
-- Email: [Contact me](mailto:your.email@example.com)
 
 ---
 

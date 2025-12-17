@@ -5,9 +5,9 @@ url: "/publications/"
 summary: "Research publications by Lian Wang"
 ---
 
-Browse my research publications in cell biology, focusing on extracellular matrix proteins, cell adhesion, and *C. elegans* genetics.
+My research investigates the molecular mechanisms underlying cell-extracellular matrix interactions, with a focus on integrin-mediated adhesion, basement membrane dynamics, and cellular invasion processes. Using *Caenorhabditis elegans* as a model organism, my work combines genetic, cell biological, and biochemical approaches to understand how cells interact with and breach basement membranes during development.
 
-All publications are listed below in reverse chronological order. Click on any title to view more details.
+All publications are listed below in reverse chronological order. Click on any title to view detailed information, including abstracts and full-text PDFs.
 
 ---
 

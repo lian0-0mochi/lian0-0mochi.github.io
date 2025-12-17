@@ -26,7 +26,7 @@ cover:
 
 ## Abstract
 
-Integrin, a heterodimeric receptor, recruits focal adhesion proteins through two cytoplasmic NPxY motifs. In *C. elegans*, PAT-3/β integrin NPxY phosphorylation mutants were analyzed. Non-phosphorylatable and phosphomimetic mutants revealed distinct effects on serotonin sensitivity, egg laying, and mechanosensation. The results show that phosphorylation state of NPxY motifs modulates neurotransmitter response and sensory behaviors, linking integrin signaling to neuronal activity.
+Integrin, a heterodimeric transmembrane receptor, plays essential roles in cell-extracellular matrix adhesion and intracellular signaling. The β integrin cytoplasmic tail contains two conserved NPxY (asparagine-proline-any amino acid-tyrosine) motifs that recruit focal adhesion proteins and can be regulated by tyrosine phosphorylation. To investigate the functional significance of NPxY phosphorylation *in vivo*, we analyzed CRISPR-generated phosphorylation mutants of PAT-3/β integrin in *C. elegans*. Non-phosphorylatable (tyrosine-to-phenylalanine) and phosphomimetic (tyrosine-to-glutamate) NPxY mutants revealed distinct effects on serotonin-induced egg laying behavior and mechanosensory responses. These results demonstrate that the phosphorylation state of NPxY motifs modulates neurotransmitter sensitivity and sensory behaviors, establishing a novel link between integrin adhesion signaling and neuronal activity regulation.
 
 ## Keywords
 
