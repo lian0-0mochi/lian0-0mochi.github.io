@@ -5,9 +5,11 @@ url: "/publications/"
 summary: "Research publications by Lian Wang"
 ---
 
-My research investigates the molecular mechanisms underlying cell-extracellular matrix interactions, with a focus on integrin-mediated adhesion, basement membrane dynamics, and cellular invasion processes. Using *Caenorhabditis elegans* as a model organism, my work combines genetic, cell biological, and biochemical approaches to understand how cells interact with and breach basement membranes during development.
+Cell invasion through basement membranes represents a fascinating convergence of mechanical physics and molecular biology. My research addresses fundamental questions at this intersection: How do cells generate and transmit forces to breach dense extracellular matrices? What molecular signatures distinguish invasive from non-invasive cell states? How do cells coordinate adhesion, cytoskeletal dynamics, and metabolic demands to achieve directed migration through tissue barriers?
 
-All publications are listed below in reverse chronological order. Click on any title to view detailed information, including abstracts and full-text PDFs.
+Using *Caenorhabditis elegans* anchor cell invasion as an experimentally tractable *in vivo* model, my work has revealed specialized mitochondrial populations that energize invasion, identified novel roles for integrin phosphorylation in neurotransmitter sensitivity, and elucidated how actin-based protrusions mechanically deform the nucleus during basement membrane penetration. These studies, employing genetic precision, quantitative imaging, and biochemical analysis, illuminate conserved mechanisms relevant to embryonic development, tissue morphogenesis, and cancer metastasis.
+
+Below you will find my publications in reverse chronological order, with full abstracts and downloadable PDFs.
 
 ---
 

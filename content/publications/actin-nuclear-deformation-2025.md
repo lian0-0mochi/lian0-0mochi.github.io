@@ -5,7 +5,7 @@ draft: false
 type: "publication"
 tags: ["actin protrusion", "nuclear mechanics", "basement membrane", "cell invasion", "C. elegans"]
 categories: ["Publications"]
-summary: "Study of how actin protrusions mechanically deform the nucleus to facilitate basement membrane penetration."
+summary: "Reveals the nucleus as an active mechanical participant in invasion: actin-generated forces deform nuclear architecture to enable cells to squeeze through basement membrane pores."
 cover:
     image: "/publications/2025.actin-nuclear-invasion/media/figure1.png"
     alt: "Actin protrusion deforms nucleus during invasion - Figure showing nuclear mechanics during basement membrane penetration"
@@ -28,7 +28,7 @@ cover:
 
 ## Abstract
 
-Cell invasion through basement membranes is a critical process in development and disease, yet the mechanical interaction between the actin cytoskeleton and the nucleus during this process remains poorly characterized. Using the *C. elegans* anchor cell as an *in vivo* model of breaching invasion, this study demonstrates that actin-based protrusions mechanically deform the nucleus to facilitate basement membrane penetration. Live imaging combined with mechanical analyses reveal that actin-based force generation at the invasive cell front produces transient nuclear deformations that are essential for successful invasion. These findings establish that nuclear mechanics and deformability play active roles in enabling cells to traverse the basement membrane barrier, providing insight into the physical mechanisms underlying invasive cell behavior during development and metastasis.
+The nucleus—often viewed as a passive cargo during cell migration—may face its greatest mechanical challenge during invasion through dense basement membranes. How do invasive cells navigate this obstacle? Does the nucleus simply deform passively, or do active cytoskeletal forces drive nuclear remodeling? Using the *C. elegans* anchor cell invasion model, we demonstrate that the nucleus plays an unexpectedly active mechanical role in basement membrane breaching. High-resolution live imaging reveals that actin-based protrusions at the invasive cell front generate substantial forces that mechanically deform the nucleus in real time. These transient but dramatic nuclear shape changes are not merely correlative—quantitative mechanical analyses establish that they are essential for successful invasion. The cytoskeleton thus actively sculpts nuclear architecture to enable passage through the restrictive basement membrane pore. This mechanistic framework illuminates how cells coordinate cytoskeletal force generation with nuclear mechanics to achieve invasion, offering new perspectives on how cancer cells navigate tissue barriers during metastasis and how nuclear envelope defects might compromise invasive capacity.
 
 ## Keywords
 

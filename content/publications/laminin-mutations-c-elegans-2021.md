@@ -5,7 +5,7 @@ draft: false
 type: "publication"
 tags: ["laminin α", "RGD motif", "extracellular matrix", "C. elegans", "motility"]
 categories: ["Publications"]
-summary: "Characterization of the RGD motif in lam-3/laminin α and its role in motility regulation in C. elegans."
+summary: "First genetic demonstration that laminin's RGD motif regulates neuromuscular coordination, revealing unexpected hypercontraction phenotypes that link extracellular matrix adhesion to locomotor control."
 cover:
     image: "/publications/2021.laminin-mutations/media/figure1.jpg"
     alt: "Laminin α mutations affect C. elegans motility - Figure showing protein structure comparison, worm phenotypes, and behavioral analysis"
@@ -30,7 +30,7 @@ cover:
 
 ## Abstract
 
-The amino acid sequence Arg-Gly-Asp (RGD) is a conserved cell-binding motif present in many extracellular matrix (ECM) proteins. Originally identified in fibronectin as an integrin recognition sequence, RGD motifs are also present in the LAM-3/laminin α chain of *C. elegans*. Laminin, a large heterotrimeric glycoprotein composed of α, β, and γ subunits, is a major structural component of basement membranes that mediates cell-ECM adhesion. To investigate the functional role of the RGD motif in LAM-3, two CRISPR-generated mutations were created: an RGE substitution that disrupts the binding motif, and a complete deletion of the RGD sequence (ΔRGD). Behavioral analysis of these mutants revealed hypercontraction phenotypes and altered sensitivity to the acetylcholine receptor agonist levamisole, indicating defects in neuromuscular function. These results demonstrate that the RGD motif in LAM-3/laminin α participates in the regulation of body wall muscle contraction, suggesting that cell-laminin interactions contribute to proper neuromuscular coordination and locomotion control in *C. elegans*.
+Laminin heterotrimers form the foundational scaffold of basement membranes throughout metazoan tissues, yet the precise molecular contacts mediating cell-laminin adhesion remain incompletely defined. While the canonical RGD (Arg-Gly-Asp) integrin-binding motif was first discovered in fibronectin, laminin α chains also harbor RGD sequences whose functional significance has not been rigorously tested genetically. Does laminin's RGD motif serve as a bona fide integrin-binding site *in vivo*, and what biological processes depend on this interaction? We generated two complementary CRISPR mutations in *C. elegans* LAM-3/laminin α: a minimal RGE substitution that disrupts the motif by changing a single residue, and a clean ΔRGD deletion. Both mutations produced striking behavioral phenotypes—specifically, hypercontraction during locomotion and altered responses to the cholinergic agonist levamisole. These neuromuscular defects were unexpected, revealing that the laminin-cell interface does not merely provide structural anchorage but actively regulates muscle contractility and neurotransmitter sensitivity. The findings establish that laminin's RGD motif mediates functionally critical cell adhesion events that govern neuromuscular coordination, offering a new perspective on how basement membrane composition influences motor circuit output and raising questions about whether similar mechanisms operate in mammalian neuromuscular systems.
 
 ## Keywords
 

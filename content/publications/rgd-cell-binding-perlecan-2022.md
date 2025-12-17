@@ -5,7 +5,7 @@ draft: false
 type: "publication"
 tags: ["perlecan", "RGD motif", "integrin", "basement membrane", "C. elegans"]
 categories: ["Publications"]
-summary: "Investigation of the RGD motif in UNC-52/perlecan as an essential integrin-binding ligand."
+summary: "Demonstrates that a single three-amino-acid motif (RGD) in the massive basement membrane proteoglycan perlecan is absolutely essential for integrin binding, muscle development, and organismal survival."
 cover:
     image: "/publications/2022.perlecan-rgd/media/figure1.jpg"
     alt: "RGD motif in UNC-52/PERLECAN - Figure showing structural analysis and phenotypic effects"
@@ -28,7 +28,7 @@ cover:
 
 ## Abstract
 
-UNC-52/perlecan is a large heparan sulfate proteoglycan that serves as a major structural component of basement membranes and is crucial for muscle cell attachment in *C. elegans*. The UNC-52 protein contains two conserved RGD (Arg-Gly-Asp) motifs located in domains III and IV, which are predicted to mediate integrin binding. To test the functional significance of these motifs, two CRISPR-generated mutations were created: an RGE substitution that disrupts the binding motif, and a complete deletion of the RGD sequence. Phenotypic analysis revealed that the RGE mutation caused abnormal actin filament organization and mislocalization of β-integrin PAT-3 and its binding partner talin TLN-1. Complete deletion of the RGD motif produced a severe Pat (paralyzed at two-fold embryo) phenotype similar to that observed in *pat-3* integrin null mutants, resulting in embryonic lethality. These findings demonstrate that the RGD motif in UNC-52/perlecan is an essential integrin-binding ligand required for proper cell-ECM adhesion, cytoskeletal organization, and embryonic development.
+Among the thousands of amino acids comprising the massive basement membrane proteoglycan perlecan (UNC-52), do specific short sequences carry outsized functional importance? The tripeptide RGD (Arg-Gly-Asp) motif—first identified in fibronectin—mediates integrin binding in many extracellular matrix proteins, but its significance within perlecan's complex architecture remains untested genetically. Using CRISPR precision genome editing in *C. elegans*, we disrupted perlecan's RGD motifs through two complementary approaches: a conservative RGE substitution that subtly alters the sequence, and complete deletion of the tripeptide. The results were dramatic. Even the minimal RGE substitution triggered catastrophic defects in actin cytoskeletal organization and caused striking mislocalization of β-integrin PAT-3 and its adaptor protein talin TLN-1, demonstrating that a single amino acid change disrupts the entire adhesion complex. Complete RGD deletion proved lethal, producing a severe Pat (paralyzed at two-fold) phenotype indistinguishable from total integrin loss—effectively phenocopying *pat-3* null mutants. These findings establish that within perlecan's ~4,000 amino acid sequence, just three consecutive residues are absolutely essential for integrin engagement, muscle attachment, and embryonic viability, illustrating how critical short linear motifs can dominate the function of enormous multidomain proteins.
 
 ## Keywords
 

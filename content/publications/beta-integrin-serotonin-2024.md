@@ -5,7 +5,7 @@ draft: false
 type: "publication"
 tags: ["integrin", "NPxY motif", "serotonin", "egg laying", "mechanosensation", "C. elegans"]
 categories: ["Publications"]
-summary: "Investigation of how β integrin NPxY phosphorylation modulates neurotransmitter response and sensory behaviors."
+summary: "Discovers unexpected crosstalk between adhesion and neurotransmission: integrin phosphorylation states modulate serotonin sensitivity, revealing how the extracellular matrix influences neural signaling."
 cover:
     image: "/publications/2024.beta-integrin-serotonin/media/figure1.jpg"
     alt: "β integrin NPxY motifs regulate serotonin sensitivity - Figure showing behavioral and mechanosensory analysis"
@@ -26,7 +26,7 @@ cover:
 
 ## Abstract
 
-Integrin, a heterodimeric transmembrane receptor, plays essential roles in cell-extracellular matrix adhesion and intracellular signaling. The β integrin cytoplasmic tail contains two conserved NPxY (asparagine-proline-any amino acid-tyrosine) motifs that recruit focal adhesion proteins and can be regulated by tyrosine phosphorylation. To investigate the functional significance of NPxY phosphorylation *in vivo*, we analyzed CRISPR-generated phosphorylation mutants of PAT-3/β integrin in *C. elegans*. Non-phosphorylatable (tyrosine-to-phenylalanine) and phosphomimetic (tyrosine-to-glutamate) NPxY mutants revealed distinct effects on serotonin-induced egg laying behavior and mechanosensory responses. These results demonstrate that the phosphorylation state of NPxY motifs modulates neurotransmitter sensitivity and sensory behaviors, establishing a novel link between integrin adhesion signaling and neuronal activity regulation.
+Cells exist at the interface between mechanical and chemical signaling environments, yet how these distinct modalities interact remains poorly understood. Integrins are quintessential mechanotransducers, linking extracellular matrix adhesion to cytoskeletal organization through their conserved cytoplasmic NPxY (asparagine-proline-any amino acid-tyrosine) motifs—motifs subject to dynamic tyrosine phosphorylation. But could integrin phosphorylation states influence neuronal signaling? Using precision CRISPR genome editing in *C. elegans*, we generated non-phosphorylatable (tyrosine-to-phenylalanine) and phosphomimetic (tyrosine-to-glutamate) mutations in the PAT-3/β integrin NPxY motifs. Remarkably, these mutations produced opposite effects on serotonin-induced egg laying behavior and mechanosensory responses, revealing that NPxY phosphorylation acts as a molecular rheostat tuning neurotransmitter sensitivity. This unexpected finding establishes a previously unrecognized signaling axis connecting integrin adhesion machinery to neuromodulatory circuits, suggesting that the physical attachment state of cells may directly influence their responsiveness to chemical signals—a paradigm with broad implications for understanding how tissue mechanics affect neural function in development, behavior, and disease.
 
 ## Keywords
 

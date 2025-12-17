@@ -14,7 +14,9 @@ I am **Lian Wang** (Lianzijun Wang), a PhD student in Biology at **Duke Universi
 
 ## Research
 
-I am pursuing my doctoral degree in the Department of Biology at Duke University. My research focuses on the molecular mechanisms of cell biology, with particular emphasis on extracellular matrix proteins and cell adhesion mechanisms in *C. elegans*. My work investigates integrin-mediated interactions, basement membrane dynamics, and cellular invasion processes using genetic and cell biological approaches.
+How do cells break through the barriers that normally contain them? This fundamental question drives my doctoral research in the Department of Biology at Duke University, where I investigate the molecular choreography of cell invasion through basement membranes—a process essential for development but co-opted in cancer metastasis.
+
+My work centers on understanding how cells physically and biochemically remodel their environment to achieve invasion. Using the powerful genetic model *Caenorhabditis elegans*, I dissect the molecular mechanisms governing integrin-mediated cell-extracellular matrix interactions, basement membrane dynamics, and the cytoskeletal forces that enable cellular invasion. By combining genetic manipulation, live-cell imaging, and biochemical approaches, my research reveals how cells coordinate adhesion, force generation, and matrix remodeling to breach tissue boundaries during normal development—insights that illuminate the aberrant processes underlying cancer invasion and metastasis.
 
 You can browse my [publications](/publications/) on this site, or find my complete research profile on:
 

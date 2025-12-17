@@ -5,7 +5,7 @@ draft: false
 type: "publication"
 tags: ["CAP domain", "BMP signaling", "sterol binding", "body size", "C. elegans"]
 categories: ["Publications"]
-summary: "Investigation of the CAP domain's role in LON-1 function, sterol binding, and regulation of body size and BMP signaling."
+summary: "Uncovers how the ancient CAP domain protein LON-1 links sterol binding to body size regulation through BMP signaling—connecting lipid biology to developmental growth control."
 cover:
     image: "/publications/2025.lon1-cap-bmp/media/figure1.png"
     alt: "LON-1 CAP domain function - Figure showing sterol binding and BMP signaling regulation"
@@ -28,7 +28,7 @@ cover:
 
 ## Abstract
 
-The CAP (cysteine-rich secretory proteins, antigen-5, and pathogenesis-related) family is broadly expressed across species. CAP proteins have roles from mammalian reproduction to plant immunity and often bind lipids. The *C. elegans* CAP protein LON-1 regulates body size and BMP signaling. LON-1 is secreted, containing a conserved CAP domain and an unstructured C-terminal region. The C-terminal domain was found dispensable, whereas conserved residues in the CAP domain were critical for LON-1 function *in vivo*. LON-1 binds sterol (but not fatty acid) *in vitro*, and the same residues required *in vivo* also mediate sterol binding. These findings link LON-1 function to sterol binding in regulating body size and BMP signaling.
+The ancient CAP (cysteine-rich secretory proteins, antigen-5, and pathogenesis-related) protein family exhibits remarkable functional diversity—from mammalian reproduction to plant immunity—yet unifying biochemical principles remain elusive. Many CAP proteins bind lipids, but whether lipid binding underlies their diverse biological functions is unclear. The *C. elegans* CAP protein LON-1 regulates body size through modulation of BMP signaling, providing an excellent model to dissect CAP domain function. Using structure-guided mutagenesis, we discovered that while LON-1's unstructured C-terminal region is dispensable for function, specific conserved residues within the CAP domain are absolutely critical for body size regulation *in vivo*. Strikingly, LON-1 binds sterols (but not fatty acids) *in vitro*, and the precise residues required for *in vivo* function also mediate sterol binding biochemically. This convergence of genetic and biochemical evidence establishes sterol binding as the molecular mechanism underlying LON-1's control of body size and BMP signaling, suggesting that lipid binding may be a conserved functional principle across the enigmatic CAP protein family.
 
 ## Keywords
 

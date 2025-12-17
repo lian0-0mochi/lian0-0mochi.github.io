@@ -5,7 +5,7 @@ draft: false
 type: "publication"
 tags: ["mitochondria", "ATP production", "cell invasion", "anchor cell", "basement membrane", "C. elegans"]
 categories: ["Publications"]
-summary: "Discovery of specialized high-capacity mitochondria that localize to the invasion site and produce elevated ATP to power cell invasion."
+summary: "Discovery reveals how invasive cells deploy specialized, high-capacity mitochondria to fuel the energetically demanding process of basement membrane breaching—a conserved mechanism linking metabolism to invasion."
 cover:
     image: "/publications/2025.mitochondria-invasion/media/figure1.png"
     alt: "Specialized mitochondria fuel cell invasion - Figure showing high-capacity mitochondria at the invasion front"
@@ -26,7 +26,7 @@ cover:
 
 ## Abstract
 
-Cell invasion through basement membrane (BM) is energetically intensive. By generating 20 endogenously tagged mitochondrial proteins, the authors identified a specialized mitochondrial subpopulation within the *C. elegans* anchor cell (AC) that localizes to the BM breaching site and produces elevated ATP to power invasion. These ETC-enriched high-capacity mitochondria are compositionally unique, enriched with protein-import machinery and dense cristae. They emerge upon AC specification and depend on the pro-invasive transcriptional program. Netrin signaling through Src kinase directs microtubule polarization, enabling metaxin-dependent mitochondrial trafficking to the invasive front. The study reveals a conserved mechanism for energizing invasive cells.
+How do cells fuel the energetically intensive process of breaking through tissue barriers? Cell invasion through basement membranes demands substantial ATP production, yet how cells meet this metabolic challenge remains unclear. By generating 20 endogenously tagged mitochondrial proteins in *C. elegans*, we discovered a remarkable solution: invasive anchor cells deploy a specialized mitochondrial subpopulation that localizes precisely to the basement membrane breaching site and produces elevated ATP to power invasion. These "high-capacity" mitochondria are compositionally distinct from their cellular neighbors, exhibiting electron transport chain enrichment, dense cristae ultrastructure, and enhanced protein-import machinery. Mechanistically, these specialized organelles emerge upon anchor cell specification through the pro-invasive transcriptional program, then traffic to the invasive front via a netrin signaling → Src kinase → microtubule polarization → metaxin-dependent pathway. This study reveals a previously unrecognized conserved mechanism whereby cells coordinate metabolic specialization with spatial positioning to energize invasion—a finding with implications for understanding cancer cell metabolism during metastasis.
 
 ## Keywords
 
