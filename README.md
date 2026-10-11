@@ -1,93 +1,122 @@
-# Lian Wang's Academic Website
+# Lianzijun Wang Portfolio
 
-Personal website for Lian Wang - PhD Student in Biology at Duke University.
+A responsive React + Vite portfolio for Lianzijun (Lian) Wang, designed for GitHub Pages at the root domain `username.github.io`.
 
-🌐 **Live Site**: https://lian0-0mochi.github.io/
+The site is intentionally content-first: research imagery, music, underwater photography, and CV details are editable in one central data file. Sample media is clearly marked as replaceable so the site does not imply awards, publications, photos, or recordings that have not been supplied yet.
 
-## About
-
-This is a Hugo-based static website showcasing research publications, blog posts, and professional information in the field of cell biology, with a focus on extracellular matrix proteins, cell adhesion, and *C. elegans* genetics.
-
-## Technology
-
-- **Static Site Generator**: [Hugo](https://gohugo.io/)
-- **Theme**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
-- **Hosting**: GitHub Pages
-
-## Key Features
-
-- 📚 **Publications Section**: Organized research papers with full-text PDFs and figures
-- 🔍 **Search Functionality**: Full-text search across all content
-- 🏷️ **Tagging System**: Publications and posts organized by keywords
-- 📱 **Responsive Design**: Mobile-friendly layout
-- 🌓 **Dark Mode**: Automatic, light, and dark themes
-- 🔗 **Academic Links**: Google Scholar, ResearchGate, ORCID integration
-
-## Repository Structure
-
-```
-├── content/           # Markdown content (pages, posts, publications)
-├── static/           # Static assets (images, PDFs)
-├── themes/PaperMod/  # Hugo theme (git submodule)
-├── hugo.toml         # Site configuration
-└── CLAUDE_INSTRUCTIONS.md  # Detailed development guide
-```
-
-## Development
-
-### Prerequisites
-
-- [Hugo](https://gohugo.io/installation/) (extended version)
-- Git
-
-### Local Development
+## Quick Start
 
 ```bash
-# Clone the repository
-git clone --recurse-submodules https://github.com/lian0-0mochi/lian0-0mochi.github.io.git
-cd lian0-0mochi.github.io
-
-# Run development server
-hugo server -D
-
-# Build for production
-hugo
+npm install
+npm run dev
 ```
 
-### Adding Publications
+Then open the local URL printed by Vite.
 
-See [CLAUDE_INSTRUCTIONS.md](./CLAUDE_INSTRUCTIONS.md) for detailed instructions on adding publications, images, and other content.
+## Build
 
-## Content Organization
+```bash
+npm run build
+```
 
-### Publications
+The production build is written to `dist/`.
 
-Each publication has:
-- **Markdown file** in `content/publications/` with metadata and content
-- **Asset directory** in `static/publications/YEAR.paper-name/` containing:
-  - `media/` - figures and images
-  - `pdf/` - full-text PDFs and supplementary materials
+## Edit Text
 
-### File Naming
+Most text lives in:
 
-- Publications: `descriptive-title-YEAR.md`
-- Asset directories: `YEAR.short-identifier/`
-- Figures: `figure1.jpg`, `figure2.png`, etc.
-- PDFs: `paper.pdf`, `supplementary.pdf`
+```text
+src/data.js
+```
 
-## Contact
+Update the exported objects there:
 
-- **Email**: [Contact through website](https://lian0-0mochi.github.io/)
-- **Google Scholar**: [Profile](https://scholar.google.com/citations?user=jBOe1ocAAAAJ&hl=en)
-- **ResearchGate**: [Profile](https://www.researchgate.net/profile/Lianzijun-Wang)
-- **ORCID**: [0000-0001-6467-4387](https://orcid.org/0000-0001-6467-4387)
+- `profile` controls name, title, email, biography, links, and CV path.
+- `hero` controls the home hero.
+- `science` controls research descriptions, gallery items, publication placeholders, and presentation placeholders.
+- `music` controls pipa images and YouTube video placeholders.
+- `exploration` controls underwater gallery and trip notes.
+- `credentials` controls the About/CV credential list.
 
-## License
+## Replace Images
 
-© 2025 Lian Wang. All rights reserved.
+Put real images in:
 
-Content and publications remain the intellectual property of their respective authors and publishers.
+```text
+public/media/
+```
 
----
+Then update the matching `src`, `image`, and `alt` fields in `src/data.js`.
 
-**For Claude Code Users**: See [CLAUDE_INSTRUCTIONS.md](./CLAUDE_INSTRUCTIONS.md) for comprehensive development guidelines.
+Recommended image formats:
+
+- `.jpg` or `.webp` for photography
+- `.png` or `.webp` for microscopy screenshots
+- Keep large images around 1600-2400 px wide for good quality without slow loading
+
+Every image should have useful alt text. If an image is decorative, keep the alt text short. If it communicates scientific content, describe the image and use the caption for details.
+
+## Add YouTube Videos
+
+In `src/data.js`, find `music.videos` and replace the empty `youtubeId` value:
+
+```js
+youtubeId: 'YOUR_VIDEO_ID'
+```
+
+For a YouTube URL like:
+
+```text
+https://www.youtube.com/watch?v=abc123
+```
+
+the ID is:
+
+```text
+abc123
+```
+
+The site uses `youtube-nocookie.com` embeds.
+
+## Replace the CV
+
+Put the real PDF here:
+
+```text
+public/files/lian-wang-cv.pdf
+```
+
+Then update `profile.cvPath` in `src/data.js`:
+
+```js
+cvPath: '/files/lian-wang-cv.pdf'
+```
+
+## GitHub Pages Setup
+
+This repository includes:
+
+```text
+.github/workflows/deploy.yml
+```
+
+The workflow builds the Vite app and deploys `dist/` with GitHub Pages when changes are pushed to `main`.
+
+For a root GitHub Pages site:
+
+1. Create or use a repository named exactly `username.github.io`, replacing `username` with the GitHub username.
+2. Push this project to the `main` branch.
+3. In GitHub, open repository settings.
+4. Go to Pages.
+5. Set the source to GitHub Actions.
+6. Push a change to `main` or run the workflow manually.
+
+The site is configured with `base: '/'` in `vite.config.js`, which is correct for `username.github.io`.
+
+## Accessibility and Motion
+
+The site includes keyboard-accessible navigation and lightbox controls, a skip link, alt text fields, responsive layouts, reduced-motion support, and lazy loading for gallery images and videos.
+
+## No Backend
+
+This is a static site. It uses no backend, database, paid service, or runtime server.
