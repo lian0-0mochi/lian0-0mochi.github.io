@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run copy:publication-assets",
+    "copy:publication-assets": "if [ -d static/publications ]; then mkdir -p dist/publications && cp -R static/publications/. dist/publications/; fi",
     "preview": "vite preview"
   },
   "dependencies": {
