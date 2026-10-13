@@ -1,17 +1,17 @@
 :root {
-  color-scheme: light;
-  --bg: #fff4bd;
-  --bg-soft: #fff0ab;
-  --ink: #241a12;
-  --muted: #615140;
-  --dim: #857563;
-  --line: rgba(36, 26, 18, 0.18);
-  --panel: rgba(255, 250, 224, 0.72);
-  --panel-strong: rgba(255, 246, 204, 0.9);
-  --accent: #9a661c;
-  --accent-cool: #276f74;
-  --focus: #7c4c00;
-  --shadow: 0 24px 90px rgba(112, 84, 38, 0.22);
+  color-scheme: dark;
+  --bg: #08090c;
+  --bg-soft: #11141a;
+  --ink: #f2eee8;
+  --muted: #b8b1a8;
+  --dim: #7f8791;
+  --line: rgba(242, 238, 232, 0.16);
+  --panel: rgba(255, 255, 255, 0.055);
+  --panel-strong: rgba(255, 255, 255, 0.09);
+  --accent: #c9a86a;
+  --accent-cool: #8fc6cf;
+  --focus: #ffe09a;
+  --shadow: 0 24px 90px rgba(0, 0, 0, 0.45);
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -29,8 +29,8 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at top left, rgba(255, 255, 255, 0.62), transparent 34rem),
-    linear-gradient(135deg, #fff8d2 0%, #fff1ad 52%, #ffeaa0 100%);
+    radial-gradient(circle at top left, rgba(143, 198, 207, 0.12), transparent 34rem),
+    linear-gradient(135deg, #08090c 0%, #11100e 48%, #08090c 100%);
   color: var(--ink);
 }
 
@@ -223,18 +223,6 @@ main {
   bottom: clamp(6rem, 12vw, 9rem);
   max-width: 42rem;
   animation: fade-up 700ms ease both;
-}
-
-.hero-copy h1,
-.hero-copy p:not(.eyebrow),
-.image-card-copy,
-.image-card-copy strong {
-  color: #fff8df;
-}
-
-.hero-copy .eyebrow,
-.image-card-copy span {
-  color: #bfe4df;
 }
 
 .eyebrow {
@@ -760,7 +748,7 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.24);
   border-radius: 999px;
   background: rgba(8, 9, 12, 0.68);
-  color: #fff8df;
+  color: var(--ink);
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -796,11 +784,11 @@ p {
   display: grid;
   gap: 0.25rem;
   padding: 1rem 0 0;
-  color: #d9d0c3;
+  color: var(--muted);
 }
 
 .lightbox figcaption strong {
-  color: #fff8df;
+  color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.3rem;
   font-weight: 500;
