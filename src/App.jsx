@@ -1,1 +1,462 @@
-import{Fragment as D,jsx as e,jsxs as a}from"react/jsx-runtime";import{useEffect as v,useMemo as P,useState as f}from"react";import{credentials as x,exploration as b,hero as u,homeAbout as p,highlights as L,music as g,navigationCards as C,pages as y,profile as o,science as d}from"./data.js";function k(){const t=window.location.hash.replace("#","");return y.some(i=>i.id===t)?t:"home"}function A(){const[t,i]=f(k),[s,l]=f(null);v(()=>{const c=()=>i(k());return window.addEventListener("hashchange",c),()=>window.removeEventListener("hashchange",c)},[]),v(()=>{document.title=`${y.find(c=>c.id===t)?.label??"Portfolio"} | ${o.preferredName}`,window.scrollTo({top:0,behavior:"auto"})},[t]);const n=P(()=>[...d.publishedWorks.map(c=>({src:c.figure.src,alt:c.figure.alt,title:c.shortTitle,caption:c.figure.caption})),...g.photos,...b.gallery],[]);function m(c){window.location.hash=c==="home"?"":c,i(c)}function r(c){l(c)}function h(){l(null)}return a("div",{className:"site-shell",children:[e("a",{className:"skip-link",href:"#main",children:"Skip to content"}),e(W,{activePage:t,onNavigate:m}),a("main",{id:"main",tabIndex:"-1",children:[t==="home"&&e($,{onNavigate:m}),t==="science"&&e(I,{onOpen:r}),t==="music"&&e(E,{onOpen:r}),t==="exploration"&&e(O,{onOpen:r}),t==="about"&&e(T,{})]}),e(z,{}),s&&e(S,{item:s,items:n,onClose:h,onSelect:l})]})}function W({activePage:t,onNavigate:i}){return a("header",{className:"site-header",children:[a("button",{className:"brand",type:"button",onClick:()=>i("home"),"aria-label":"Go to home page",children:[e("span",{className:"brand-mark","aria-hidden":"true",children:"LW"}),a("span",{children:[e("span",{className:"brand-name",children:o.preferredName}),e("span",{className:"brand-title",children:o.title})]})]}),e("nav",{"aria-label":"Primary navigation",children:y.map(s=>e("button",{className:t===s.id?"nav-link is-active":"nav-link",type:"button",onClick:()=>i(s.id),children:s.label},s.id))})]})}function $({onNavigate:t}){return a(D,{children:[a("section",{className:"hero-section",children:[a("div",{className:"hero-media",children:[e("img",{src:u.image,alt:u.alt,fetchPriority:"high"}),e("span",{className:"replaceable-tag",children:"replaceable hero image"})]}),a("div",{className:"hero-copy",children:[e("p",{className:"eyebrow",children:u.eyebrow}),e("h1",{children:u.headline}),e("p",{children:u.body}),e("p",{className:"intro-line",children:o.intro})]})]}),e("section",{className:"page-band home-about-band","aria-labelledby":"home-about-heading",children:a("div",{className:"home-about-layout",children:[a("div",{className:"section-heading",children:[e("p",{className:"eyebrow",children:p.eyebrow}),e("h2",{id:"home-about-heading",children:p.headline})]}),a("div",{className:"home-about-copy",children:[a("div",{className:"name-origin-panel",children:[e("p",{className:"meta-line",children:"Chinese name"}),e("p",{className:"name-origin",children:p.chineseName}),e("p",{children:p.introduction})]}),a("div",{className:"home-about-detail-grid",children:[a("article",{className:"text-panel",children:[e("p",{className:"meta-line",children:"Hometown"}),e("h3",{children:p.hometown}),e("p",{children:p.hometownNote})]}),a("article",{className:"text-panel",children:[e("p",{className:"meta-line",children:"Education"}),e("ul",{className:"clean-list",children:p.education.map(i=>e("li",{children:i},i))})]})]})]})]})}),a("section",{className:"page-band",children:[a("div",{className:"section-heading",children:[e("p",{className:"eyebrow",children:"Portfolio paths"}),e("h2",{children:"Three ways into the work"})]}),e("div",{className:"nav-card-grid",children:C.map(i=>a("button",{className:"image-card",type:"button",onClick:()=>t(i.page),children:[e("img",{src:i.image,alt:i.alt,loading:"lazy"}),e("span",{className:"replaceable-tag",children:"replaceable"}),a("span",{className:"image-card-copy",children:[e("span",{children:i.kicker}),e("strong",{children:i.title})]})]},i.page))})]}),a("section",{className:"page-band highlights-band",children:[a("div",{className:"section-heading",children:[e("p",{className:"eyebrow",children:"Selected highlights"}),e("h2",{children:"Prepared for real projects and media"})]}),e("div",{className:"highlight-grid",children:L.map(i=>a("article",{className:"text-panel",children:[e("h3",{children:i.title}),e("p",{children:i.text})]},i.title))})]})]})}function I({onOpen:t}){const[i,s]=f(d.publishedWorks[0].id),l=d.publishedWorks.find(n=>n.id===i)??d.publishedWorks[0];return a(N,{eyebrow:"Science",title:"Published and ongoing work",intro:d.overview,children:[a("section",{className:"science-section","aria-labelledby":"published-work-heading",children:[a("div",{className:"section-heading compact-heading",children:[e("p",{className:"eyebrow",children:"Published Work"}),e("h2",{id:"published-work-heading",children:"A timeline of papers"})]}),a("div",{className:"publication-shell",children:[e("div",{className:"publication-timeline",role:"tablist","aria-label":"Published works timeline",children:d.publishedWorks.map(n=>a("button",{className:n.id===l.id?"timeline-tab is-active":"timeline-tab",type:"button",role:"tab","aria-selected":n.id===l.id,"aria-controls":`paper-panel-${n.id}`,id:`paper-tab-${n.id}`,onClick:()=>s(n.id),children:[e("span",{children:n.year}),n.shortTitle]},n.id))}),a("article",{className:"paper-panel",role:"tabpanel",id:`paper-panel-${l.id}`,"aria-labelledby":`paper-tab-${l.id}`,children:[a("button",{className:"paper-figure",type:"button",onClick:()=>t({src:l.figure.src,alt:l.figure.alt,title:l.shortTitle,caption:l.figure.caption}),"aria-label":`Open figure snapshot for ${l.title}`,children:[e("img",{src:l.figure.src,alt:l.figure.alt,loading:"lazy"}),e("span",{className:"scale-line figure-label",children:l.figure.caption})]}),a("div",{className:"paper-copy",children:[e("p",{className:"meta-line",children:l.venue}),e("h3",{children:l.title}),e("p",{className:"authors-line",children:l.authors}),e("p",{children:l.summary}),a("div",{className:"action-row",children:[e("a",{className:"button-link",href:l.journalUrl,target:"_blank",rel:"noreferrer",children:l.journalLabel}),e("a",{className:"button-link",href:l.pdfUrl,download:!0,children:"Download PDF"})]})]})]})]})]}),a("section",{className:"science-section","aria-labelledby":"ongoing-work-heading",children:[a("div",{className:"section-heading compact-heading",children:[e("p",{className:"eyebrow",children:"Ongoing Work"}),e("h2",{id:"ongoing-work-heading",children:"Projects to keep updating"})]}),e("div",{className:"ongoing-grid",children:d.ongoingWork.map(n=>a("article",{className:"ongoing-card",children:[e("img",{src:n.image,alt:n.alt,loading:"lazy"}),a("div",{children:[e("p",{className:"meta-line",children:n.status}),e("h3",{children:n.title}),e("p",{children:n.body})]})]},n.title))})]}),a("section",{className:"list-section",children:[e("h2",{children:"Presentations"}),e("div",{className:"list-stack",children:a("article",{className:"list-item",children:[e("h3",{children:"Presentation placeholder"}),e("p",{children:"Add real talk or poster title, venue, location, and date when available."})]})})]})]})}function E({onOpen:t}){return a(N,{eyebrow:"Music",title:"Pipa, performance, and listening notes",intro:g.overview,children:[e(w,{items:g.photos,onOpen:t}),e("div",{className:"video-grid",children:g.videos.map(i=>a("article",{className:"video-card",children:[i.youtubeId?e("iframe",{title:i.title,src:`https://www.youtube-nocookie.com/embed/${i.youtubeId}`,allow:"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",allowFullScreen:!0,loading:"lazy"}):e("div",{className:"video-placeholder",role:"img","aria-label":"Replaceable YouTube embed placeholder",children:"Add YouTube ID"}),a("div",{children:[e("h3",{children:i.title}),e("p",{children:i.description})]})]},i.title))})]})}function O({onOpen:t}){return a(N,{eyebrow:"Exploration",title:"Underwater photographs and field notes",intro:b.overview,children:[e(w,{items:b.gallery,onOpen:t}),e("div",{className:"split-grid",children:b.trips.map(i=>a("article",{className:"text-panel",children:[e("p",{className:"meta-line",children:i.date}),e("h3",{children:i.place}),e("p",{children:i.description})]},i.place))})]})}function T(){return a(N,{eyebrow:"About/CV",title:`${o.name}`,intro:o.biography,children:[a("div",{className:"about-grid",children:[a("section",{className:"text-panel",children:[e("h2",{children:"Academic Credentials"}),e("ul",{className:"clean-list",children:x.map(t=>e("li",{children:t},t))})]}),a("section",{className:"text-panel contact-panel",children:[e("h2",{children:"Contact"}),e("p",{children:o.affiliation}),e("p",{children:o.location}),e("a",{href:`mailto:${o.email}`,children:o.email}),e("a",{className:"button-link",href:o.cvPath,download:!0,children:"Download CV placeholder"})]})]}),e("section",{className:"link-row","aria-label":"Profile links",children:o.links.map(t=>e("a",{href:t.href,children:t.label},t.label))})]})}function N({eyebrow:t,title:i,intro:s,children:l}){return a("section",{className:"content-page",children:[a("div",{className:"page-intro",children:[e("p",{className:"eyebrow",children:t}),e("h1",{children:i}),e("p",{children:s})]}),l]})}function w({items:t,onOpen:i,showScale:s=!1}){return e("div",{className:"gallery-grid",children:t.map(l=>a("article",{className:"gallery-item",children:[a("button",{type:"button",onClick:()=>i(l),"aria-label":`Open ${l.title} image`,children:[e("img",{src:l.src,alt:l.alt,loading:"lazy"}),e("span",{className:"replaceable-tag",children:"replaceable"})]}),a("div",{className:"gallery-caption",children:[e("h3",{children:l.title}),e("p",{children:l.caption}),s&&e("p",{className:"scale-line",children:l.scale})]})]},l.title))})}function F({title:t,items:i}){return a("section",{className:"list-section",children:[e("h2",{children:t}),e("div",{className:"list-stack",children:i.map(s=>a("article",{className:"list-item",children:[e("h3",{children:s.title}),e("p",{children:s.detail})]},s.title))})]})}function S({item:t,items:i,onClose:s,onSelect:l}){return v(()=>{function n(m){if(m.key==="Escape"&&s(),m.key==="ArrowRight"){const r=i.findIndex(h=>h.src===t.src);l(i[(r+1)%i.length])}if(m.key==="ArrowLeft"){const r=i.findIndex(h=>h.src===t.src);l(i[(r-1+i.length)%i.length])}}return document.addEventListener("keydown",n),()=>document.removeEventListener("keydown",n)},[t,i,s,l]),a("div",{className:"lightbox",role:"dialog","aria-modal":"true","aria-label":t.title,children:[e("button",{className:"lightbox-close",type:"button",onClick:s,children:"Close"}),a("figure",{children:[e("img",{src:t.src,alt:t.alt}),a("figcaption",{children:[e("strong",{children:t.title}),e("span",{children:t.caption}),t.scale&&e("span",{children:t.scale})]})]})]})}function z(){return a("footer",{className:"site-footer",children:[a("p",{children:[o.preferredName," | ",o.title,", ",o.affiliation]}),e("a",{href:`mailto:${o.email}`,children:o.email})]})}var G=A;export{G as default};
+import { useEffect, useMemo, useState } from 'react';
+import {
+  credentials,
+  exploration,
+  hero,
+  homeAbout,
+  music,
+  navigationCards,
+  pages,
+  profile,
+  science,
+} from './data.js';
+
+function getInitialPage() {
+  const hash = window.location.hash.replace('#', '');
+  return pages.some((page) => page.id === hash) ? hash : 'home';
+}
+
+function App() {
+  const [activePage, setActivePage] = useState(getInitialPage);
+  const [lightboxItem, setLightboxItem] = useState(null);
+
+  useEffect(() => {
+    const onHashChange = () => setActivePage(getInitialPage());
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
+
+  useEffect(() => {
+    document.title = `${pages.find((page) => page.id === activePage)?.label ?? 'Portfolio'} | ${profile.preferredName}`;
+    window.scrollTo({ top: 0, behavior: 'auto' });
+  }, [activePage]);
+
+  const allGalleryItems = useMemo(
+    () => [
+      ...science.publishedWorks.map((work) => ({
+        src: work.figure.src,
+        alt: work.figure.alt,
+        title: work.shortTitle,
+        caption: work.figure.caption,
+      })),
+      ...music.photos,
+      ...exploration.gallery,
+    ],
+    [],
+  );
+
+  function navigate(pageId) {
+    window.location.hash = pageId === 'home' ? '' : pageId;
+    setActivePage(pageId);
+  }
+
+  function openLightbox(item) {
+    setLightboxItem(item);
+  }
+
+  function closeLightbox() {
+    setLightboxItem(null);
+  }
+
+  return (
+    <div className="site-shell">
+      <a className="skip-link" href="#main">
+        Skip to content
+      </a>
+      <Header activePage={activePage} onNavigate={navigate} />
+      <main id="main" tabIndex="-1">
+        {activePage === 'home' && <Home onNavigate={navigate} />}
+        {activePage === 'science' && <Science onOpen={openLightbox} />}
+        {activePage === 'music' && <Music onOpen={openLightbox} />}
+        {activePage === 'exploration' && <Exploration onOpen={openLightbox} />}
+        {activePage === 'about' && <About />}
+      </main>
+      <Footer />
+      {lightboxItem && (
+        <Lightbox
+          item={lightboxItem}
+          items={allGalleryItems}
+          onClose={closeLightbox}
+          onSelect={setLightboxItem}
+        />
+      )}
+    </div>
+  );
+}
+
+function Header({ activePage, onNavigate }) {
+  return (
+    <header className="site-header">
+      <button className="brand" type="button" onClick={() => onNavigate('home')} aria-label="Go to home page">
+        <span className="brand-mark" aria-hidden="true">
+          LW
+        </span>
+        <span>
+          <span className="brand-name">{profile.preferredName}</span>
+          <span className="brand-title">{profile.title}</span>
+        </span>
+      </button>
+      <nav aria-label="Primary navigation">
+        {pages.map((page) => (
+          <button
+            className={activePage === page.id ? 'nav-link is-active' : 'nav-link'}
+            type="button"
+            key={page.id}
+            onClick={() => onNavigate(page.id)}
+          >
+            {page.label}
+          </button>
+        ))}
+      </nav>
+    </header>
+  );
+}
+
+function Home({ onNavigate }) {
+  return (
+    <>
+      <section className="hero-section">
+        <div className="hero-media">
+          <img src={hero.image} alt={hero.alt} fetchPriority="high" />
+          <span className="replaceable-tag">replaceable hero image</span>
+        </div>
+        <div className="hero-copy">
+          <p className="eyebrow">{hero.eyebrow}</p>
+          <h1>{hero.headline}</h1>
+          <p>{hero.body}</p>
+          <p className="intro-line">{profile.intro}</p>
+        </div>
+      </section>
+
+      <section className="page-band home-about-band" aria-labelledby="home-about-heading">
+        <div className="home-about-layout">
+          <div className="section-heading">
+            <p className="eyebrow">{homeAbout.eyebrow}</p>
+            <h2 id="home-about-heading">{homeAbout.headline}</h2>
+          </div>
+          <div className="home-about-copy">
+            <div className="name-origin-panel">
+              <p className="meta-line">Chinese name</p>
+              <p className="name-origin">{homeAbout.chineseName}</p>
+              <p>{homeAbout.introduction}</p>
+            </div>
+            <div className="home-about-detail-grid">
+              <article className="text-panel">
+                <p className="meta-line">Hometown</p>
+                <h3>{homeAbout.hometown}</h3>
+                <p>{homeAbout.hometownNote}</p>
+              </article>
+              <article className="text-panel">
+                <p className="meta-line">Education</p>
+                <ul className="clean-list">
+                  {homeAbout.education.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="page-band">
+        <div className="section-heading">
+          <p className="eyebrow">Portfolio paths</p>
+          <h2>Three ways into the work</h2>
+        </div>
+        <div className="nav-card-grid">
+          {navigationCards.map((card) => (
+            <button className="image-card" type="button" key={card.page} onClick={() => onNavigate(card.page)}>
+              <img src={card.image} alt={card.alt} loading="lazy" />
+              <span className="replaceable-tag">replaceable</span>
+              <span className="image-card-copy">
+                <span>{card.kicker}</span>
+                <strong>{card.title}</strong>
+              </span>
+            </button>
+          ))}
+        </div>
+      </section>
+    </>
+  );
+}
+
+function Science({ onOpen }) {
+  const [activeWorkId, setActiveWorkId] = useState(science.publishedWorks[0].id);
+  const activeWork =
+    science.publishedWorks.find((work) => work.id === activeWorkId) ?? science.publishedWorks[0];
+
+  return (
+    <PageLayout eyebrow="Science" title="Published and ongoing work" intro={science.overview}>
+      <section className="science-section" aria-labelledby="published-work-heading">
+        <div className="section-heading compact-heading">
+          <p className="eyebrow">Published Work</p>
+          <h2 id="published-work-heading">A timeline of papers</h2>
+        </div>
+        <div className="publication-shell">
+          <div className="publication-timeline" role="tablist" aria-label="Published works timeline">
+            {science.publishedWorks.map((work) => (
+              <button
+                className={work.id === activeWork.id ? 'timeline-tab is-active' : 'timeline-tab'}
+                type="button"
+                role="tab"
+                aria-selected={work.id === activeWork.id}
+                aria-controls={`paper-panel-${work.id}`}
+                id={`paper-tab-${work.id}`}
+                key={work.id}
+                onClick={() => setActiveWorkId(work.id)}
+              >
+                <span>{work.year}</span>
+                {work.shortTitle}
+              </button>
+            ))}
+          </div>
+          <article
+            className="paper-panel"
+            role="tabpanel"
+            id={`paper-panel-${activeWork.id}`}
+            aria-labelledby={`paper-tab-${activeWork.id}`}
+          >
+            <button
+              className="paper-figure"
+              type="button"
+              onClick={() =>
+                onOpen({
+                  src: activeWork.figure.src,
+                  alt: activeWork.figure.alt,
+                  title: activeWork.shortTitle,
+                  caption: activeWork.figure.caption,
+                })
+              }
+              aria-label={`Open figure snapshot for ${activeWork.title}`}
+            >
+              <img src={activeWork.figure.src} alt={activeWork.figure.alt} loading="lazy" />
+              <span className="scale-line figure-label">{activeWork.figure.caption}</span>
+            </button>
+            <div className="paper-copy">
+              <p className="meta-line">{activeWork.venue}</p>
+              <h3>{activeWork.title}</h3>
+              <p className="authors-line">{activeWork.authors}</p>
+              <p>{activeWork.summary}</p>
+              <div className="action-row">
+                <a className="button-link" href={activeWork.journalUrl} target="_blank" rel="noreferrer">
+                  {activeWork.journalLabel}
+                </a>
+                <a className="button-link" href={activeWork.pdfUrl} download>
+                  Download PDF
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section className="science-section" aria-labelledby="ongoing-work-heading">
+        <div className="section-heading compact-heading">
+          <p className="eyebrow">Ongoing Work</p>
+          <h2 id="ongoing-work-heading">Projects to keep updating</h2>
+        </div>
+        <div className="ongoing-grid">
+          {science.ongoingWork.map((work) => (
+            <article className="ongoing-card" key={work.title}>
+              <img src={work.image} alt={work.alt} loading="lazy" />
+              <div>
+                <p className="meta-line">{work.status}</p>
+                <h3>{work.title}</h3>
+                <p>{work.body}</p>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="list-section">
+        <h2>Presentations</h2>
+        <div className="list-stack">
+          <article className="list-item">
+            <h3>Presentation placeholder</h3>
+            <p>Add real talk or poster title, venue, location, and date when available.</p>
+          </article>
+        </div>
+      </section>
+    </PageLayout>
+  );
+}
+
+function Music({ onOpen }) {
+  return (
+    <PageLayout eyebrow="Music" title="Pipa, performance, and listening notes" intro={music.overview}>
+      <Gallery items={music.photos} onOpen={onOpen} />
+      <div className="video-grid">
+        {music.videos.map((video) => (
+          <article className="video-card" key={video.title}>
+            {video.youtubeId ? (
+              <iframe
+                title={video.title}
+                src={`https://www.youtube-nocookie.com/embed/${video.youtubeId}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
+              />
+            ) : (
+              <div className="video-placeholder" role="img" aria-label="Replaceable YouTube embed placeholder">
+                Add YouTube ID
+              </div>
+            )}
+            <div>
+              <h3>{video.title}</h3>
+              <p>{video.description}</p>
+            </div>
+          </article>
+        ))}
+      </div>
+    </PageLayout>
+  );
+}
+
+function Exploration({ onOpen }) {
+  return (
+    <PageLayout eyebrow="Exploration" title="Underwater photographs and field notes" intro={exploration.overview}>
+      <Gallery items={exploration.gallery} onOpen={onOpen} />
+      <div className="split-grid">
+        {exploration.trips.map((trip) => (
+          <article className="text-panel" key={trip.place}>
+            <p className="meta-line">{trip.date}</p>
+            <h3>{trip.place}</h3>
+            <p>{trip.description}</p>
+          </article>
+        ))}
+      </div>
+    </PageLayout>
+  );
+}
+
+function About() {
+  return (
+    <PageLayout eyebrow="About/CV" title={`${profile.name}`} intro={profile.biography}>
+      <div className="about-grid">
+        <section className="text-panel">
+          <h2>Academic Credentials</h2>
+          <ul className="clean-list">
+            {credentials.map((credential) => (
+              <li key={credential}>{credential}</li>
+            ))}
+          </ul>
+        </section>
+        <section className="text-panel contact-panel">
+          <h2>Contact</h2>
+          <p>{profile.affiliation}</p>
+          <p>{profile.location}</p>
+          <a href={`mailto:${profile.email}`}>{profile.email}</a>
+          <a className="button-link" href={profile.cvPath} download>
+            Download CV placeholder
+          </a>
+        </section>
+      </div>
+      <section className="link-row" aria-label="Profile links">
+        {profile.links.map((link) => (
+          <a key={link.label} href={link.href}>
+            {link.label}
+          </a>
+        ))}
+      </section>
+    </PageLayout>
+  );
+}
+
+function PageLayout({ eyebrow, title, intro, children }) {
+  return (
+    <section className="content-page">
+      <div className="page-intro">
+        <p className="eyebrow">{eyebrow}</p>
+        <h1>{title}</h1>
+        <p>{intro}</p>
+      </div>
+      {children}
+    </section>
+  );
+}
+
+function Gallery({ items, onOpen, showScale = false }) {
+  return (
+    <div className="gallery-grid">
+      {items.map((item) => (
+        <article className="gallery-item" key={item.title}>
+          <button type="button" onClick={() => onOpen(item)} aria-label={`Open ${item.title} image`}>
+            <img src={item.src} alt={item.alt} loading="lazy" />
+            <span className="replaceable-tag">replaceable</span>
+          </button>
+          <div className="gallery-caption">
+            <h3>{item.title}</h3>
+            <p>{item.caption}</p>
+            {showScale && <p className="scale-line">{item.scale}</p>}
+          </div>
+        </article>
+      ))}
+    </div>
+  );
+}
+
+function ListSection({ title, items }) {
+  return (
+    <section className="list-section">
+      <h2>{title}</h2>
+      <div className="list-stack">
+        {items.map((item) => (
+          <article className="list-item" key={item.title}>
+            <h3>{item.title}</h3>
+            <p>{item.detail}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function Lightbox({ item, items, onClose, onSelect }) {
+  useEffect(() => {
+    function onKeyDown(event) {
+      if (event.key === 'Escape') onClose();
+      if (event.key === 'ArrowRight') {
+        const index = items.findIndex((candidate) => candidate.src === item.src);
+        onSelect(items[(index + 1) % items.length]);
+      }
+      if (event.key === 'ArrowLeft') {
+        const index = items.findIndex((candidate) => candidate.src === item.src);
+        onSelect(items[(index - 1 + items.length) % items.length]);
+      }
+    }
+
+    document.addEventListener('keydown', onKeyDown);
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [item, items, onClose, onSelect]);
+
+  return (
+    <div className="lightbox" role="dialog" aria-modal="true" aria-label={item.title}>
+      <button className="lightbox-close" type="button" onClick={onClose}>
+        Close
+      </button>
+      <figure>
+        <img src={item.src} alt={item.alt} />
+        <figcaption>
+          <strong>{item.title}</strong>
+          <span>{item.caption}</span>
+          {item.scale && <span>{item.scale}</span>}
+        </figcaption>
+      </figure>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="site-footer">
+      <p>
+        {profile.preferredName} | {profile.title}, {profile.affiliation}
+      </p>
+      <a href={`mailto:${profile.email}`}>{profile.email}</a>
+    </footer>
+  );
+}
+
+export default App;
