@@ -293,7 +293,7 @@ function Music({ onOpen }) {
             {video.youtubeId ? (
               <iframe
                 title={video.title}
-                src={`https://www.youtube-nocookie.com/embed/${video.youtubeId}`}
+                src={`https://www.youtube-nocookie.com/embed/${video.youtubeId}${video.start ? `?start=${video.start}` : ''}`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
                 loading="lazy"
