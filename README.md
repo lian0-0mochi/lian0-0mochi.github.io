@@ -33,6 +33,7 @@ Update the exported objects there:
 
 - `profile` controls name, title, email, biography, links, and CV path.
 - `hero` controls the home hero.
+- `homeAbout` controls the homepage About Me section, including Chinese name, hometown, and short education notes.
 - `science.publishedWorks` controls the published-paper timeline, including title, authors, summary, figure snapshot, journal/preprint-site link, and PDF download link.
 - `science.ongoingWork` controls the ongoing-project cards.
 - `music` controls pipa images and YouTube video placeholders.
